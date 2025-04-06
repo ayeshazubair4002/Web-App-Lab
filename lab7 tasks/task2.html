@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+</head>
+<body>
+
+    <div class="Container"></div>
+    <div class="Container"></div>
+    <div class="Container"></div>
+
+    <script>
+
+        cont=document.getElementsByClassName("Container");
+
+
+        const array=["Mango Cake", "Red Velvet Cookie", "Lasagna"];
+
+        for(let i=0;i<3;i++)
+    {
+        cont[i].innerHTML= "Container "+(i+1) +" has "+array[i];
+    }
+
+    </script>
+    
+</body>
+</html>
